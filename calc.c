@@ -25,6 +25,14 @@ int main()
             {   x=a/b;
                 printf("div is:%f",x);
             }
+        case '$':
+            {
+                int decimalNumber;
+                printf("Enter a decimal number: ");
+                scanf("%d", &decimalNumber);
+    
+                printf("Hexadecimal representation: 0x%X\n", decimalNumber);
+            }
     }
         return 0;
 }
